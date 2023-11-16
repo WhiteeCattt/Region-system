@@ -1,0 +1,41 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§lRegion add-on - 1.20.40",
+		"description": "§lПростой аддон для создания регионов с помощью блоков!\n§g-rg help §f- помощь по командам\n§bАлмазный блок §f- 8x8x8\n§aИзумрудный блок §f- 16x16x16\n§cНезеритовый блок §f- 24x24x24",
+		"uuid": "948ff548-8492-11ee-b962-0242ac120002",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 40 ]
+	},
+	"modules": [
+		{
+			"type": "data",
+			"uuid": "948ff3f4-8492-11ee-b962-0242ac120002",
+			"version": [ 0, 0, 1 ]
+		},
+		{
+			"type": "script",
+			"language": "javascript",
+			"entry": "scripts/index.js",
+			"uuid": "948fefda-8492-11ee-b962-0242ac120002",
+			"version": "1.4.0-beta"
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://github.com/WhiteeCattt/Region-system"
+  },
+	"dependencies": [
+		{
+			"description": "@minecraft/server module dependency",
+			"module_name": "@minecraft/server",
+			"version": "1.7.0-beta"
+		},
+		{
+			"description": "@minecraft/server-ui module dependency",
+			"module_name": "@minecraft/server-ui",
+			"version": "1.2.0-beta"
+		}
+	]
+}
