@@ -414,7 +414,7 @@ world.beforeEvents.chatSend.subscribe((data) => {
             player.sendMessage(prefix+ `§g${pref}rg help §r- помощь по регионам`)
             player.sendMessage(prefix+ `§g${pref}rg info §r- информация о регионе`)
             player.sendMessage(prefix+ `§g${pref}rg list §r- ваши регионы/участие в регионах`)
-            player.sendMessage(prefix+ `§g${pref}rg add <ник> §r- добавить игрока в регионах`)
+            player.sendMessage(prefix+ `§g${pref}rg add <ник> §r- добавить игрока в регион`)
             player.sendMessage(prefix+ `§g${pref}rg kick <ник> §r- кикнуть игрока из региона`)
         } else if (args[1] == "list") {
             if (listRegions(player).length > 0) {
