@@ -1,0 +1,22 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "§lRegion system RP - 1.20.40",
+		"description": "§lПростой аддон для создания регионов с помощью блоков!\n§g-rg help §f- помощь по командам\n§bАлмазный блок §f- 8x8x8\n§aИзумрудный блок §f- 16x16x16\n§cНезеритовый блок §f- 24x24x24",
+		"uuid": "741fba22-8498-11ee-b962-0242ac120002",
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 40 ]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "741fb496-8498-11ee-b962-0242ac120002",
+			"version": [ 1, 0, 0 ]
+		}
+	],
+	"metadata": {
+		"authors": ["WhiteeCattt"],
+		"license": "MIT",
+		"url": "https://github.com/WhiteeCattt/Region-system"
+  }
+}
