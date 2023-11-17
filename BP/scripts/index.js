@@ -17,7 +17,7 @@ if (db.get(`Regions`) == undefined) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function fixDistance(rg) {
@@ -49,7 +49,7 @@ function fixDistance(rg) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function checkRegion(pos) {
@@ -92,7 +92,7 @@ function checkRegion(pos) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function getPlayerRegions(player) {
@@ -108,7 +108,7 @@ function getPlayerRegions(player) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function getDim(dimension) {
@@ -127,7 +127,7 @@ function getDim(dimension) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 world.afterEvents.playerPlaceBlock.subscribe((data) => {
@@ -157,7 +157,7 @@ world.afterEvents.playerPlaceBlock.subscribe((data) => {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 const regionDistance = {
@@ -181,7 +181,7 @@ const regionDistance = {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function createRG(player, block) {
@@ -265,7 +265,7 @@ function createRG(player, block) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function deleteRG(player, block, data) {
@@ -289,7 +289,7 @@ function deleteRG(player, block, data) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 world.beforeEvents.playerBreakBlock.subscribe((data) => {
@@ -320,7 +320,7 @@ world.beforeEvents.playerBreakBlock.subscribe((data) => {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 world.beforeEvents.itemUseOn.subscribe((data) => {
@@ -348,7 +348,7 @@ world.beforeEvents.itemUseOn.subscribe((data) => {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function getRegion(pos) {
@@ -363,7 +363,7 @@ function getRegion(pos) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 world.beforeEvents.chatSend.subscribe((data) => {
@@ -432,7 +432,7 @@ world.beforeEvents.chatSend.subscribe((data) => {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function listRegions(player) {
@@ -448,7 +448,7 @@ function listRegions(player) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
 */
 function removeAccess(player, target, rg) {
@@ -557,7 +557,7 @@ function addAccess(player, target, rg) {
 /**
  * Copyright (C) 2023 WhiteeCattt
  * GitHub: https://github.com/WhiteeCattt/
- * Project: GitHub: https://github.com/WhiteeCattt/Region-system
+ * Project: https://github.com/WhiteeCattt/Region-system
  * Discord: WhiteeCattt
  */
 system.runInterval(() => {
