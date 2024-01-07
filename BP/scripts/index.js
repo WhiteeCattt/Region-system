@@ -249,7 +249,6 @@ world.beforeEvents.playerBreakBlock.subscribe((data) => {
             }
             deleteRegion(player, block)
         }
-    }
 })
 
 
